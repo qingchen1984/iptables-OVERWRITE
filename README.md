@@ -1,6 +1,6 @@
 # iptables-OVERWRITE 
 
-This is a combination of an iptables extension as well as a coorosponding netfiler extension using the xtables framework. This extension allows the user to arbitrarily overwrite any data in an IP packet. 
+This is a combination of an iptables extension as well as a corresponding netfilter extension using the xtables framework. This extension allows the user to arbitrarily overwrite any data in an IP packet. Originally designed for breaking covert channels like ICMP tunnels.
 
 ### Prerequisites
 
@@ -19,10 +19,10 @@ tar -xvf iptables-1.6.2.tar.bz2
 
 ### Installing
 
-1) Download this repository along side the iptables source directory 
+1) Download this repository along with the iptables source directory 
 
 ```
-git clone https://SecurityInnovation/iptables-OVERWRITE 
+git clone https://github.com/SecurityInnovation/iptables-OVERWRITE.git
 ```
 
 2) Change directory to this repository
